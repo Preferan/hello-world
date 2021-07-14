@@ -13,10 +13,9 @@ void main()
 	delay();
 }
 
-
 void delay()
 {
 	int x,y;
 	for(x=95;x>0;x--)
 		for(y=1200;y>0;y--);
-}
+}//利用子函数延时，需调试
